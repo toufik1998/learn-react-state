@@ -10,7 +10,7 @@ function App() {
     <div className="state">
         <h1 className="state--title">Do I feel like going out tonight?</h1>
         <div onClick={changeMind} className="state--value">
-            <h1>{answer ? "Yes" : "No"}</h1>
+            <h1>{answer ? "Yes" : "Noo"}</h1>
         </div>
     </div>
 )
